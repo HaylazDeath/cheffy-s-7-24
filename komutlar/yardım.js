@@ -8,9 +8,9 @@ exports.run = (client, message, params) => {
   .setTitle("Komutlar")
   .setDescription('')
   .setColor(0x00ffff)
-  .addField("**Eğlence ve Kullanıcı Komutları:**", `!!banned = Dene ve Gör! \n!!avatarım = Avatarınınızı Gösterir. \n!!herkesebendençay = Herkese Çay Alırsınız. \n!!koş = Koşarsınız.\n!!çayiç = Çay İçersiniz. \n!!çekiç = İstediğiniz Kişiye Çekiç Atarsınız. \n!!çayaşekerat = Çaya Şeker Atarsınız. \n!!yumruh-at = Yumruk Atarsınız. \n!!yaz = Bota İstediğiniz Şeyi Yazdırırsınız. \n!!sunucuresmi = BOT Sunucunun Resmini Atar. \n!!sunucubilgi = BOT Sunucu Hakkında Bilgi Verir. \n!!kullanıcıbilgim = Sizin Hakkınızda Bilgi Verir. `)
-  .addField("**Yetkilisi Komutlar**", `!!ban = İstediğiniz Kişiyi Sunucudan Banlar. \n!!kick  = İstediğiniz Kişiyi Sunucudan Atar. \n!!unban = İstediğiniz Kişinin Yasağını Açar. \nh!sustur = İstediğiniz Kişiyi Susturur. \n!!oylama = Oylama Açar. \n!!dmduyuru = Özelden Duyuru Yapmanı Sağlar. \n!!duyuru = Güzel Bir Duyuru Görünümü Sağlar.`)
-  .addField("**Ana Komutlar**", "!!yardım = BOT Komutlarını Atar. \n!!bilgi = BOT Kendisi Hakkında Bilgi Verir. \n!!ping = BOT Gecikme Süresini Söyler. \n!!davet = BOT Davet Linkini Atar. \n!!istatistik = BOT İstatistiklerini Atar.")
+  .addField("**Eğlence ve Kullanıcı Komutları:**", `b!banned = Dene ve Gör! \nb!avatarım = Avatarınınızı Gösterir. \nb!herkesebendençay = Herkese Çay Alırsınız. \nb!koş = Koşarsınız.\nb!çayiç = Çay İçersiniz. \nb!çekiç = İstediğiniz Kişiye Çekiç Atarsınız. \nb!çayaşekerat = Çaya Şeker Atarsınız. \nb!yumruh-at = Yumruk Atarsınız. \nb!yaz = Bota İstediğiniz Şeyi Yazdırırsınız. \nb!sunucuresmi = BOT Sunucunun Resmini Atar. \nb!sunucubilgi = BOT Sunucu Hakkında Bilgi Verir. \nb!kullanıcıbilgim = Sizin Hakkınızda Bilgi Verir. `)
+  .addField("**Yetkilisi Komutlar**", `b!ban = İstediğiniz Kişiyi Sunucudan Banlar. \nb!kick  = İstediğiniz Kişiyi Sunucudan Atar. \nb!unban = İstediğiniz Kişinin Yasağını Açar. \nb!sustur = İstediğiniz Kişiyi Susturur. \nb!oylama = Oylama Açar. \nb!dmduyuru = Özelden Duyuru Yapmanı Sağlar. \nb!duyuru = Güzel Bir Duyuru Görünümü Sağlar.`)
+  .addField("**Ana Komutlar**", "b!yardım = BOT Komutlarını Atar. \nb!bilgi = BOT Kendisi Hakkında Bilgi Verir. \nb!ping = BOT Gecikme Süresini Söyler. \nb!davet = BOT Davet Linkini Atar. \nb!istatistik = BOT İstatistiklerini Atar.")
   .addField("**Yapımcı**", " **! HAYLAZDEATH#4532** ")
   .setFooter('**--------------------------**')
   if (!params[0]) {
